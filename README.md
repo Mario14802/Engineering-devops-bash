@@ -7,4 +7,9 @@ task 5 > I love numbers
 task 6 > Welcome
 task 7 > Betty in my first directory
 task 8 >  Bye bye Betty
-task 9 > Bye bye My first directory  
+task 9 > Bye bye My first director
+task 10 > Back to the future
+task 11 > Lists
+task 12 > File type
+task 13 > We are symbols, and inhabit symbols
+task 14 > Copy HTML files 
