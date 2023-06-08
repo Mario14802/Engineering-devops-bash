@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in [A-Z]*; do mv "$file" /tmp/u/ done
+mkdir -p /tmp/u mv [[:upper:]]* /tmp/u

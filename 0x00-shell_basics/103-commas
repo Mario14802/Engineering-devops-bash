@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" . .. "$(printf '%s\n' .* | sed '1,2d' | sed 's/$/\//' | LC_ALL=C sort -df | tr '\n' ',')" "$(printf '%s\n' * | sed 's/$/\//' | LC_ALL=C sort -df | tr '\n' ',')" | cat -e | sed 's/,\$//g; s/\$/\n/'

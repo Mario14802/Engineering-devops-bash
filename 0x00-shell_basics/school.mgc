@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'BEGIN {printf "%s,%s,", ".", ".."}; {if(substr($0, 0, 1) == ".") printf "%s,", $0}; {if(substr($0, 0, 1) != ".") printf "%s,", $0}' | sed 's/,$/\n/'
